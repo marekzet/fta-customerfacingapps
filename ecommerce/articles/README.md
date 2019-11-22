@@ -132,7 +132,7 @@ To complete this scenario, you will need:
   * Ensure to create the firewall rule that allows Azure services to access the server
   * ![Create SQL Server](media/sqlserver-create.png)
 * After the SQL Database has been created, navigate to its **Connection strings** blade in the Azure Portal and copy the **ADO.NET connection string** to the clipboard
-* Navigate to the App Service for the Web App and open the **Application settings** blade
+* Navigate to the App Service for the Web App and open the **Configuration** blade
   * Under **Application settings** (note: _do not_ use **Connection strings**), add a new configuration setting:
 
 Name | Value
