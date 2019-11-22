@@ -124,6 +124,7 @@ To complete this scenario, you will need:
 > This allows the stateless web application to store persistent data in a managed database service
 
 * Back in the Azure Portal, navigate to the Resource Group and [create a SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal)
+  ![Select DB Service](media/sql-choose-database.PNG)
   * _Suggested name for the SQL Database: `<prefix>-sql-database`_
   * Choose `Basic` or higher as the pricing tier for the SQL Database
   * ![Create SQL Database](media/sqldatabase-create.png)
